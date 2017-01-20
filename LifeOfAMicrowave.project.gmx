@@ -6,6 +6,7 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_pPlayer</sprite>
     <sprite>sprites\spr_i_testmicro</sprite>
     <sprite>sprites\spr_k_test</sprite>
   </sprites>
@@ -16,6 +17,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_k_test</room>
+    <room>rooms\rm_ptest</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
