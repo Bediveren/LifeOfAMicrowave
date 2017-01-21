@@ -18,6 +18,13 @@
     <sprite>sprites\spr_p_wall</sprite>
     <sprite>sprites\spr_t_oven</sprite>
     <sprite>sprites\spr_p_wave</sprite>
+    <sprites name="player">
+      <sprite>sprites\spr_standing_still</sprite>
+      <sprite>sprites\spr_walking_left</sprite>
+      <sprite>sprites\spr_walking_right</sprite>
+      <sprite>sprites\spr_up_left</sprite>
+      <sprite>sprites\spr_up_right</sprite>
+    </sprites>
     <sprite>sprites\spr_water</sprite>
     <sprite>sprites\spr_counter1</sprite>
     <sprite>sprites\spr_counter2</sprite>
