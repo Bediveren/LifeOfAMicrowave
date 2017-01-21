@@ -24,7 +24,7 @@
       <sprite>sprites\spr_walking_right</sprite>
       <sprite>sprites\spr_up_left</sprite>
       <sprite>sprites\spr_up_right</sprite>
-      <sprite>sprites\spr_walking_left_2</sprite>
+      <sprite>sprites\spr_wave</sprite>
     </sprites>
     <sprites name="Counters">
       <sprite>sprites\spr_counter1</sprite>
@@ -38,12 +38,14 @@
       <sprite>sprites\spr_t_oven</sprite>
       <sprite>sprites\spr_waterNotSolid</sprite>
     </sprites>
-    <sprite>sprites\sprite22</sprite>
+    <sprite>sprites\spr_widerSink</sprite>
     <sprite>sprites\spr_counter6High</sprite>
     <sprite>sprites\spr_flying1</sprite>
     <sprite>sprites\spr_flyingCnt2</sprite>
     <sprite>sprites\spr_flying3</sprite>
     <sprite>sprites\spr_flying4</sprite>
+    <sprite>sprites\spr_sinkNotSolid</sprite>
+    <sprite>sprites\sprite30</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -83,15 +85,15 @@
     <objects name="traps">
       <object>objects\obj_t_ofire</object>
       <object>objects\obj_t_swater</object>
-      <object>objects\obj_t_swaterNotSol</object>
-      <object>objects\obj_widerSink</object>
+      <object>objects\obj_t_swaterSol</object>
+      <object>objects\obj_widerSinknotSol</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_j_test</room>
     <room>rooms\rm_screenshot</room>
-    <room>rooms\rm_p_test</room>
     <room>rooms\rm_k_mainmenu</room>
+    <room>rooms\rm_p_test</room>
     <room>rooms\rm_testCounters</room>
     <room>rooms\rm_k_credits</room>
     <room>rooms\rm_trap_test</room>
