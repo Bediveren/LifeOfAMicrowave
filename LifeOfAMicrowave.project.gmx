@@ -48,6 +48,7 @@
     <sprite>sprites\spr_flying4</sprite>
     <sprite>sprites\spr_sinkNotSolid</sprite>
     <sprite>sprites\sprite30</sprite>
+    <sprite>sprites\sprite34</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -62,6 +63,7 @@
     <objects name="Enemy">
       <object>objects\obj_j_range</object>
       <object>objects\obj_melee</object>
+      <object>objects\obj_j_cherryBullet</object>
     </objects>
     <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>

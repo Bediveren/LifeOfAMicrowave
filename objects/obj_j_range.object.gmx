@@ -31,14 +31,15 @@
 grav = 0.5;
 horizontalSpeed = 0;
 verticalSpeed = 0;
-jumpSpeed = 20;
-moveSpeed = 5;
+jumpSpeed = 12;
+moveSpeed = 7;
 
 //combat
-hitpoints = 3;
+hitPoints = 150;
 
 //others
-spriteWidth = 75
+spriteWidth = 75;
+bullet = false;
 </string>
           </argument>
         </arguments>
@@ -63,11 +64,22 @@ spriteWidth = 75
             <kind>1</kind>
             <string>///movement
 
+if (hitPoints == 0)
+{
+    instance_destroy();
+}
+
+
 horizontalSpeed = moveSpeed;
+
+if(place_meeting(x, y, obj_p_wave))
+{
+    hitPoints -= 1;
+}
 
 if distance_to_object(obj_p_player) &gt; (spriteWidth)
 {
-if(verticalSpeed &lt; 18) verticalSpeed += grav;
+if(verticalSpeed &lt; 10) verticalSpeed += grav;
 
 //Horizontal collision
 
@@ -112,6 +124,14 @@ if(instance_exists(obj_p_wave))
         y=other.y;
     }
 }
+}
+else
+{
+    if (!bullet)
+    {
+        instance_create(x, y, obj_j_cherryBullet);
+    }
+    bullet = true;
 }
 </string>
           </argument>
