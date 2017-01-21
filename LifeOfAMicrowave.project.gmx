@@ -25,6 +25,7 @@
       <sprite>sprites\spr_up_left</sprite>
       <sprite>sprites\spr_up_right</sprite>
       <sprite>sprites\spr_wave</sprite>
+      <sprite>sprites\spr_lives</sprite>
     </sprites>
     <sprite>sprites\spr_water</sprite>
     <sprite>sprites\spr_counter1</sprite>
@@ -40,7 +41,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_k_test</object>
-    <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
     <object>objects\obj_t_ofire</object>
     <object>objects\obj_t_swater</object>
@@ -57,6 +57,8 @@
     <object>objects\obj_counter3</object>
     <object>objects\obj_counter4</object>
     <object>objects\obj_counter5</object>
+    <object>objects\obj_lives</object>
+    <object>objects\obj_p_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_p_test</room>
