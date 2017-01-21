@@ -19,7 +19,6 @@
     <sprite>sprites\spr_p_wave</sprite>
     <sprite>sprites\sprite10</sprite>
     <sprite>sprites\spr_i_testmelee</sprite>
-    <sprite>sprites\spr_apple</sprite>
     <sprites name="player">
       <sprite>sprites\spr_standing_still</sprite>
       <sprite>sprites\spr_walking_left</sprite>
@@ -49,15 +48,16 @@
       <sprite>sprites\spr_transpSinkBottom</sprite>
       <sprite>sprites\spr_transpSinkSides</sprite>
     </sprites>
-    <sprite>sprites\spr_widerSink</sprite>
-    <sprite>sprites\spr_counter6High</sprite>
-    <sprite>sprites\spr_flying1</sprite>
-    <sprite>sprites\spr_flyingCnt2</sprite>
-    <sprite>sprites\spr_flying3</sprite>
-    <sprite>sprites\spr_flying4</sprite>
-    <sprite>sprites\spr_sinkNotSolid</sprite>
+    <sprites name="pie">
+      <sprite>sprites\spr_pie_left</sprite>
+      <sprite>sprites\spr_pie_right</sprite>
+    </sprites>
     <sprite>sprites\sprite30</sprite>
     <sprite>sprites\sprite34</sprite>
+    <sprites name="apple">
+      <sprite>sprites\spr_apple_left</sprite>
+      <sprite>sprites\spr_apple_right</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
