@@ -33,19 +33,21 @@
       <sprite>sprites\spr_counter3</sprite>
       <sprite>sprites\spr_counter4</sprite>
       <sprite>sprites\spr_counter5</sprite>
+      <sprite>sprites\spr_counter6High</sprite>
+      <sprite>sprites\spr_flying1</sprite>
+      <sprite>sprites\spr_flyingCnt2</sprite>
+      <sprite>sprites\spr_flying3</sprite>
+      <sprite>sprites\spr_flying4</sprite>
     </sprites>
     <sprites name="traps">
       <sprite>sprites\spr_waterSolid</sprite>
       <sprite>sprites\spr_t_oven</sprite>
+      <sprite>sprites\spr_widerSink</sprite>
       <sprite>sprites\spr_waterNotSolid</sprite>
+      <sprite>sprites\spr_sinkNotSolid</sprite>
+      <sprite>sprites\spr_transpSinkBottom</sprite>
+      <sprite>sprites\spr_transpSinkSides</sprite>
     </sprites>
-    <sprite>sprites\spr_widerSink</sprite>
-    <sprite>sprites\spr_counter6High</sprite>
-    <sprite>sprites\spr_flying1</sprite>
-    <sprite>sprites\spr_flyingCnt2</sprite>
-    <sprite>sprites\spr_flying3</sprite>
-    <sprite>sprites\spr_flying4</sprite>
-    <sprite>sprites\spr_sinkNotSolid</sprite>
     <sprites name="pie">
       <sprite>sprites\spr_pie_left</sprite>
       <sprite>sprites\spr_pie_right</sprite>
@@ -97,6 +99,8 @@
       <object>objects\obj_t_swater</object>
       <object>objects\obj_t_swaterSol</object>
       <object>objects\obj_widerSinknotSol</object>
+      <object>objects\obj_sinkBottomTransp</object>
+      <object>objects\obj_sinkSides</object>
     </objects>
   </objects>
   <rooms name="rooms">
