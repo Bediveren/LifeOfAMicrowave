@@ -36,8 +36,16 @@
       <sprite>sprites\spr_t_oven</sprite>
       <sprite>sprites\spr_waterNotSolid</sprite>
     </sprites>
+    <sprite>sprites\sprite22</sprite>
+    <sprite>sprites\spr_counter6High</sprite>
+    <sprite>sprites\spr_flying1</sprite>
+    <sprite>sprites\spr_flyingCnt2</sprite>
+    <sprite>sprites\spr_flying3</sprite>
+    <sprite>sprites\spr_flying4</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_background</background>
+  </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\f_k_button</font>
@@ -61,20 +69,28 @@
       <object>objects\obj_counter4</object>
       <object>objects\obj_counter3</object>
       <object>objects\obj_counter5</object>
+      <object>objects\obj_counter6High</object>
+      <object>objects\obj_flyingCnt1</object>
+      <object>objects\obj_flyingCnt2</object>
+      <object>objects\obj_flyingCnt3</object>
+      <object>objects\obj_flyingCnt4</object>
     </objects>
     <objects name="traps">
       <object>objects\obj_t_ofire</object>
       <object>objects\obj_t_swater</object>
       <object>objects\obj_t_swaterNotSol</object>
+      <object>objects\obj_widerSink</object>
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_screenshot</room>
     <room>rooms\rm_testCounters</room>
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_k_credits</room>
     <room>rooms\rm_p_test</room>
     <room>rooms\rm_trap_test</room>
     <room>rooms\room2</room>
+    <room>rooms\room6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
