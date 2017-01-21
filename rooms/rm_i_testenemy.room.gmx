@@ -3,8 +3,8 @@
   <caption></caption>
   <width>3840</width>
   <height>768</height>
-  <vsnap>32</vsnap>
-  <hsnap>32</hsnap>
+  <vsnap>16</vsnap>
+  <hsnap>16</hsnap>
   <isometric>0</isometric>
   <speed>60</speed>
   <persistent>0</persistent>
@@ -96,6 +96,7 @@
     <instance objName="obj_p_wall" x="2048" y="480" name="inst_1B5042D4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_p_wall" x="1920" y="480" name="inst_85057B2C" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_p_wall" x="1824" y="448" name="inst_CA80B0FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_holeMarker" x="2344" y="506" name="inst_75CCD88F" locked="0" code="" scaleX="0.46875" scaleY="1.59375" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

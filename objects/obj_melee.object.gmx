@@ -100,6 +100,7 @@ horizontalSpeed = 0;
 verticalSpeed = 0;
 jumpSpeed = 10;
 moveSpeed = 7;
+jumpCount = 0;
 </string>
           </argument>
         </arguments>
@@ -146,12 +147,10 @@ if(place_meeting(x-horizontalSpeed, y, obj_p_wall))
 }
 
 x -= horizontalSpeed;
-if(instance_exists(obj_p_wave))
+
+if(place_meeting(x-1, y+1, obj_holeMarker))
 {
-    with(obj_p_wave)
-    {
-        x=other.x;
-    }
+verticalSpeed = -jumpSpeed;
 }
 
 //Vertical collision

@@ -51,12 +51,14 @@
     <sprites name="pie">
       <sprite>sprites\spr_pie_left</sprite>
       <sprite>sprites\spr_pie_right</sprite>
+      <sprite>sprites\spr_cherry</sprite>
     </sprites>
     <sprite>sprites\sprite30</sprite>
     <sprites name="apple">
       <sprite>sprites\spr_apple_left</sprite>
       <sprite>sprites\spr_apple_right</sprite>
     </sprites>
+    <sprite>sprites\spr_holeMarker</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -102,6 +104,7 @@
       <object>objects\obj_sinkBottomTransp</object>
       <object>objects\obj_sinkSides</object>
     </objects>
+    <object>objects\obj_holeMarker</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_i_testenemy</room>
