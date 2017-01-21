@@ -12,6 +12,7 @@
     <sound>sound\s_microwave_death_sound</sound>
     <sound>sound\s_menu_music</sound>
     <sound>sound\s_microwave_jump</sound>
+    <sound>sound\s_button_click</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_p_player</sprite>
@@ -124,6 +125,7 @@
     </objects>
     <object>objects\obj_lives</object>
     <object>objects\obj_p_player</object>
+    <object>objects\obj_k_menu_controller</object>
     <objects name="Windows">
       <object>objects\obj_window1</object>
       <object>objects\obj_window2</object>
@@ -136,10 +138,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_screenshot</room>
     <room>rooms\rm_j_test</room>
     <room>rooms\rm_i_testenemy</room>
-    <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_p_test</room>
     <room>rooms\rm_testCounters</room>
     <room>rooms\rm_k_credits</room>
