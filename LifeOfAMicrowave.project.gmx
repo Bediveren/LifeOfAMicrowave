@@ -12,6 +12,7 @@
     <sound>sound\s_microwave_death_sound</sound>
     <sound>sound\s_menu_music</sound>
     <sound>sound\s_microwave_jump</sound>
+    <sound>sound\s_button_click</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_p_player</sprite>
@@ -84,6 +85,8 @@
       <sprite>sprites\spr_egg</sprite>
       <sprite>sprites\spr_eggBlast</sprite>
     </sprites>
+    <sprite>sprites\spr_fire</sprite>
+    <sprite>sprites\spr_trashbin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -130,9 +133,12 @@
       <object>objects\obj_widerSinknotSol</object>
       <object>objects\obj_sinkBottomTransp</object>
       <object>objects\obj_sinkSides</object>
+      <object>objects\obj_fireOnOven</object>
+      <object>objects\obj_trashbin</object>
     </objects>
     <object>objects\obj_holeMarker</object>
     <object>objects\obj_lives</object>
+    <object>objects\obj_k_menu_controller</object>
     <objects name="Windows">
       <object>objects\obj_window1</object>
       <object>objects\obj_window2</object>
@@ -144,9 +150,7 @@
       <object>objects\obj_painting3</object>
     </objects>
   </objects>
-  <rooms name="rooms">
-    <room>rooms\rm_i_testenemy</room>
-  </rooms>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
