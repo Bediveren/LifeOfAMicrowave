@@ -77,6 +77,13 @@
     <sprite>sprites\spr_painting1</sprite>
     <sprite>sprites\spr_painting2</sprite>
     <sprite>sprites\spr_painting3</sprite>
+    <sprites name="Burger">
+      <sprite>sprites\spr_burger</sprite>
+    </sprites>
+    <sprites name="Egg">
+      <sprite>sprites\spr_egg</sprite>
+      <sprite>sprites\spr_eggBlast</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -137,7 +144,9 @@
       <object>objects\obj_painting3</object>
     </objects>
   </objects>
-  <rooms name="rooms"/>
+  <rooms name="rooms">
+    <room>rooms\rm_i_testenemy</room>
+  </rooms>
   <help>
     <rtf>help.rtf</rtf>
   </help>

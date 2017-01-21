@@ -105,6 +105,12 @@ if(place_meeting(x-horizontalSpeed, y, obj_p_wall))
 
 x -= horizontalSpeed;
 
+//jumping when is close to hole
+if(place_meeting(x-1, y+1, obj_holeMarker))
+{
+    verticalSpeed = -jumpSpeed;
+}
+
 //Vertical collision
 if(place_meeting(x, y+verticalSpeed, obj_p_wall))
 {
