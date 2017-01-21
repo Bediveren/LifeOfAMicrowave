@@ -18,6 +18,8 @@
     </sprites>
     <sprite>sprites\spr_p_wave</sprite>
     <sprite>sprites\sprite10</sprite>
+    <sprite>sprites\spr_i_testmelee</sprite>
+    <sprite>sprites\spr_apple</sprite>
     <sprites name="player">
       <sprite>sprites\spr_standing_still</sprite>
       <sprite>sprites\spr_walking_left</sprite>
@@ -59,6 +61,7 @@
     <object>objects\obj_k_test</object>
     <objects name="Enemy">
       <object>objects\obj_j_range</object>
+      <object>objects\obj_melee</object>
     </objects>
     <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
@@ -91,6 +94,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_j_test</room>
+    <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_screenshot</room>
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_p_test</room>
