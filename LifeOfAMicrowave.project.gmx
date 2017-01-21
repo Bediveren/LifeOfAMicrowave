@@ -9,13 +9,29 @@
     <sprite>sprites\spr_pPlayer</sprite>
     <sprite>sprites\spr_i_testmicro</sprite>
     <sprite>sprites\spr_k_test</sprite>
+    <sprites name="mainmenu_ui">
+      <sprite>sprites\spr_k_button1</sprite>
+      <sprite>sprites\spr_k_button_idle</sprite>
+      <sprite>sprites\spr_k_button_hower</sprite>
+      <sprite>sprites\spr_k_button_click</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\f_k_button</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_k_test</object>
+    <objects name="mainmenu_ui">
+      <object>objects\obj_k_play</object>
+      <object>objects\obj_k_quit</object>
+      <object>objects\obj_k_credits</object>
+      <object>objects\obj_k_button_parent</object>
+    </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_k_test</room>
     <room>rooms\rm_ptest</room>
   </rooms>
