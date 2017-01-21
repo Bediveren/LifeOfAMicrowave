@@ -9,7 +9,14 @@
     <sprite>sprites\spr_p_player</sprite>
     <sprite>sprites\spr_i_testmicro</sprite>
     <sprite>sprites\spr_k_test</sprite>
+    <sprites name="mainmenu_ui">
+      <sprite>sprites\spr_k_button1</sprite>
+      <sprite>sprites\spr_k_button_idle</sprite>
+      <sprite>sprites\spr_k_button_hower</sprite>
+      <sprite>sprites\spr_k_button_click</sprite>
+    </sprites>
     <sprite>sprites\spr_p_wall</sprite>
+    <sprite>sprites\spr_t_oven</sprite>
     <sprite>sprites\spr_p_wave</sprite>
     <sprites name="player">
       <sprite>sprites\spr_standing_still</sprite>
@@ -18,18 +25,43 @@
       <sprite>sprites\spr_up_left</sprite>
       <sprite>sprites\spr_up_right</sprite>
     </sprites>
+    <sprite>sprites\spr_water</sprite>
+    <sprite>sprites\spr_counter1</sprite>
+    <sprite>sprites\spr_counter2</sprite>
+    <sprite>sprites\spr_counter3</sprite>
+    <sprite>sprites\spr_counter4</sprite>
+    <sprite>sprites\spr_counter5</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <fonts name="fonts">
+    <font>fonts\f_k_button</font>
+  </fonts>
   <objects name="objects">
     <object>objects\obj_k_test</object>
     <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
+    <object>objects\obj_t_ofire</object>
+    <object>objects\obj_t_swater</object>
+    <object>objects\obj_spongeInSink</object>
     <object>objects\obj_p_wave</object>
+    <objects name="mainmenu_ui">
+      <object>objects\obj_k_play</object>
+      <object>objects\obj_k_quit</object>
+      <object>objects\obj_k_credits</object>
+      <object>objects\obj_k_button_parent</object>
+    </objects>
+    <object>objects\obj_counter1</object>
+    <object>objects\obj_counter2</object>
+    <object>objects\obj_counter3</object>
+    <object>objects\obj_counter4</object>
+    <object>objects\obj_counter5</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_testCounters</room>
+    <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_p_test</room>
-    <room>rooms\rm_k_test</room>
+    <room>rooms\room2</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
