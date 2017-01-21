@@ -17,6 +17,8 @@
     </sprites>
     <sprite>sprites\spr_p_wall</sprite>
     <sprite>sprites\spr_p_wave</sprite>
+    <sprite>sprites\spr_i_testmelee</sprite>
+    <sprite>sprites\spr_apple</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -26,10 +28,8 @@
   <objects name="objects">
     <object>objects\obj_k_test</object>
     <objects name="Enemy">
-      <object>objects\obj_enemy</object>
       <object>objects\obj_melee</object>
     </objects>
-    <object>objects\obj_k_test</object>
     <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
     <object>objects\obj_p_wave</object>
@@ -41,6 +41,7 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_p_test</room>
     <room>rooms\room2</room>
