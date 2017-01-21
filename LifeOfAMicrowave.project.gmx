@@ -23,6 +23,7 @@
       <sprite>sprites\spr_walking_right</sprite>
       <sprite>sprites\spr_up_left</sprite>
       <sprite>sprites\spr_up_right</sprite>
+      <sprite>sprites\spr_walking_left_2</sprite>
     </sprites>
     <sprites name="Counters">
       <sprite>sprites\spr_counter1</sprite>
@@ -69,10 +70,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_p_test</room>
     <room>rooms\rm_testCounters</room>
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_k_credits</room>
-    <room>rooms\rm_p_test</room>
     <room>rooms\rm_trap_test</room>
     <room>rooms\room2</room>
   </rooms>
