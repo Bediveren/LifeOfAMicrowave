@@ -29,12 +29,16 @@
 
 //moving
 grav = 0.5;
-horizontalSpeed = 15;
+horizontalSpeed = 0;
 verticalSpeed = 0;
 jumpSpeed = 20;
+moveSpeed = 5;
 
 //combat
 hitpoints = 3;
+
+//others
+spriteWidth = 75
 </string>
           </argument>
         </arguments>
@@ -59,7 +63,9 @@ hitpoints = 3;
             <kind>1</kind>
             <string>///movement
 
-if distance_to_object(obj_zaidejas) &gt; sprite_width*5
+horizontalSpeed = moveSpeed;
+
+if distance_to_object(obj_p_player) &gt; (spriteWidth)
 {
 
 if(verticalSpeed &lt; 18) verticalSpeed += grav;
