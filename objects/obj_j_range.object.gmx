@@ -35,7 +35,7 @@ jumpSpeed = 12;
 moveSpeed = 7;
 
 //combat
-hitPoints = 150;
+hitPoints = 90;
 
 //others
 spriteWidth = 75;
@@ -104,13 +104,6 @@ if(place_meeting(x-horizontalSpeed, y, obj_p_wall))
 }
 
 x -= horizontalSpeed;
-if(instance_exists(obj_p_wave))
-{
-    with(obj_p_wave)
-    {
-        x=other.x;
-    }
-}
 
 //Vertical collision
 if(place_meeting(x, y+verticalSpeed, obj_p_wall))

@@ -86,6 +86,7 @@
       <object>objects\obj_melee</object>
       <object>objects\obj_j_cherryBullet</object>
     </objects>
+    <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
     <object>objects\obj_p_wave</object>
     <objects name="mainmenu_ui">
