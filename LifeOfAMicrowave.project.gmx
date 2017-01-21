@@ -16,6 +16,7 @@
       <sprite>sprites\spr_k_button_click</sprite>
     </sprites>
     <sprite>sprites\spr_p_wall</sprite>
+    <sprite>sprites\spr_t_oven</sprite>
     <sprite>sprites\spr_p_wave</sprite>
   </sprites>
   <backgrounds name="background"/>
@@ -27,6 +28,9 @@
     <object>objects\obj_k_test</object>
     <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
+    <object>objects\obj_t_ofire</object>
+    <object>objects\obj_t_swater</object>
+    <object>objects\obj_spongeInSink</object>
     <object>objects\obj_p_wave</object>
     <objects name="mainmenu_ui">
       <object>objects\obj_k_play</object>
@@ -38,6 +42,8 @@
   <rooms name="rooms">
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_p_test</room>
+    <room>rooms\rm_k_test</room>
+    <room>rooms\rm_trap_test</room>
     <room>rooms\room2</room>
   </rooms>
   <help>
