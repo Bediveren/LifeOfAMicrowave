@@ -64,7 +64,16 @@
     <instance objName="obj_sinkSides" x="328" y="1376" name="inst_D57466C9" locked="0" code="" scaleX="0.625" scaleY="0.875" colour="4294967295" rotation="0"/>
     <instance objName="obj_sinkSides" x="320" y="1376" name="inst_7DF419BC" locked="0" code="" scaleX="0.75" scaleY="0.875" colour="4294967295" rotation="0"/>
     <instance objName="obj_sinkSides" x="912" y="1376" name="inst_57B39AB4" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_j_range" x="1736" y="1072" name="inst_7A635413" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_j_range" x="2032" y="976" name="inst_678F63F5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_counter6High" x="2240" y="1104" name="inst_3C998A0E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_t_swaterSol" x="2560" y="1368" name="inst_933B3F00" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_t_ofire" x="3201" y="1356" name="inst_BE8A734D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_counter4" x="3520" y="1376" name="inst_F78E49E9" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flyingCnt2" x="3520" y="392" name="inst_6EDDD235" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flyingCnt1" x="2872" y="624" name="inst_11D3A61B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flyingCnt3" x="1336" y="488" name="inst_AE3531B1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lives" x="48" y="136" name="inst_C4B388F0" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_melee" x="2448" y="960" name="inst_CBC327B7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

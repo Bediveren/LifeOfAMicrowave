@@ -35,12 +35,13 @@ jumpSpeed = 20;
 moveSpeed = 15;
 
 //combat
-hitpoints = 5;
+hitpoints = 100;
 direct = 1;
 //object status
 sizeHeight = 205;
 sizeWidth = 128;
 shooting = false;
+halfSecond = 0;
 </string>
           </argument>
         </arguments>
@@ -63,80 +64,154 @@ shooting = false;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>    //Get the player's input
-    key_right = keyboard_check(vk_right);
-    key_left = -keyboard_check(vk_left);
-    key_jump = keyboard_check_pressed(vk_up);
-    
-        
-    //React to inputs;
-    if(shooting == false)
+            <string>//Get the player's input
+key_right = keyboard_check(vk_right);
+key_left = -keyboard_check(vk_left);
+key_jump = keyboard_check_pressed(vk_up);
+//jump sound
+if(key_jump) audio_play_sound(s_microwave_jump, 1, false);  
+//React to inputs;
+if(shooting == false)
+{
+    move = key_left + key_right;
+    horizontalSpeed = move * moveSpeed;
+    if(move != 0 ) direct = sign(move);
+}
+else
+{
+    move = 0;
+    horizontalSpeed = 0;
+}
+    //gravity
+if(verticalSpeed &lt; 25) verticalSpeed += grav;
+//jumping
+if(shooting == false)
+    if(place_meeting(x,y + 1, obj_p_wall))
     {
-        move = key_left + key_right;
-        horizontalSpeed = move * moveSpeed;
-        if(move != 0 ) direct = sign(move);
+        verticalSpeed = key_jump * -jumpSpeed;
     }
-    else
+//Horizontal collision
+if(place_meeting(x+horizontalSpeed, y, obj_p_wall))
+{
+    while(!place_meeting(x+sign(horizontalSpeed),y, obj_p_wall))
     {
-        move = 0;
-        horizontalSpeed = 0;
-    }
-        //gravity
-    if(verticalSpeed &lt; 25) verticalSpeed += grav;
-    //jumping
-    if(shooting == false)
-        if(place_meeting(x,y + 1, obj_p_wall))
-        {
-            verticalSpeed = key_jump * -jumpSpeed;
-        }
-    //Horizontal collision
-    if(place_meeting(x+horizontalSpeed, y, obj_p_wall))
+        x+=sign(horizontalSpeed);
+    }  
+    horizontalSpeed = 0;
+}
+else x += horizontalSpeed;
+//Vertical collision
+if(place_meeting(x, y+verticalSpeed, obj_p_wall))
+{
+    while(!place_meeting(x,y + sign(verticalSpeed), obj_p_wall))
     {
-        while(!place_meeting(x+sign(horizontalSpeed),y, obj_p_wall))
-        {
-            x+=sign(horizontalSpeed);
-        }  
-        horizontalSpeed = 0;
-    }
-    else x += horizontalSpeed;
-    //Vertical collision
-    if(place_meeting(x, y+verticalSpeed, obj_p_wall))
-    {
-        while(!place_meeting(x,y + sign(verticalSpeed), obj_p_wall))
-        {
-            y+=sign(verticalSpeed);
-        }   
-        verticalSpeed = 0;
-    }
-    else y += verticalSpeed;
+        y+=sign(verticalSpeed);
+    }   
+    verticalSpeed = 0;
+}
+else y += verticalSpeed;
 
-    //animations
-    if(move != 0)
-    {
-        if(place_meeting(x,y + 1, obj_p_wall)) 
-        {   
-            if(move &gt; 0)
-            {
-                sprite_index = spr_walking_right;
-            }
-            else 
-            {
-                sprite_index = spr_walking_left;
-            }
-        }
-        else
+//animations
+if(move != 0)
+{
+    if(place_meeting(x,y + 1, obj_p_wall)) 
+    {   
+        if(move &gt; 0)
         {
-            if(verticalSpeed &lt; 0)
-            {
-                if(move &gt; 0 ) sprite_index = spr_up_right;
-                else sprite_index = spr_up_left;
-            }
+            sprite_index = spr_walking_right;
         }
-    } 
+        else 
+        {
+            sprite_index = spr_walking_left;
+        }
+    }
     else
     {
-        sprite_index = spr_standing_still;
+        if(verticalSpeed &lt; 0)
+        {
+            if(move &gt; 0 ) sprite_index = spr_up_right;
+            else sprite_index = spr_up_left;
+        }
     }
+} 
+else
+{
+    sprite_index = spr_standing_still;
+}
+//check colision with sink
+halfSecond++;
+if(halfSecond == 30)
+{
+    if(place_meeting(x,y+5,obj_sinkBottomTransp))
+    {
+        hitpoints -= 2;
+    }
+    halfSecond = 0;
+}
+//set lives
+if(hitpoints != 100) life = hitpoints/20 + 1;
+else life = 5;
+inst_lives = instance_find(obj_lives,1);
+with(inst_lives)
+{
+    image_index = other.life;
+    image_speed = 0;
+}
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_j_cherryBullet">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hitpoints -= 5;
+with(other)
+{
+    instance_destroy();
+}
+
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="4" ename="obj_melee">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>hitpoints -= 25;
+with(other)
+{
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
