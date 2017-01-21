@@ -20,6 +20,6 @@
   <width>640</width>
   <height>438</height>
   <frames>
-    <frame index="0">images\sprite22_0.png</frame>
+    <frame index="0">images\spr_sinkNotSolid_0.png</frame>
   </frames>
 </sprite>
