@@ -11,6 +11,11 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
+  <objects name="objects">
+    <objects name="Enemy">
+      <object>objects\obj_enemy</object>
+    </objects>
+  </objects>
   <rooms name="rooms">
     <room>rooms\rm_ptest</room>
   </rooms>
