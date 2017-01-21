@@ -17,6 +17,7 @@
     <object>objects\obj_k_test</object>
     <objects name="Enemy">
       <object>objects\obj_enemy</object>
+      <object>objects\obj_melee</object>
     </objects>
     <object>objects\obj_k_test</object>
     <object>objects\obj_p_player</object>
