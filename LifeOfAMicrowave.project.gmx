@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_pPlayer</sprite>
     <sprite>sprites\spr_i_testmicro</sprite>
+    <sprite>sprites\spr_k_test</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -15,8 +16,10 @@
     <objects name="Enemy">
       <object>objects\obj_enemy</object>
     </objects>
+    <object>objects\obj_k_test</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_k_test</room>
     <room>rooms\rm_ptest</room>
   </rooms>
   <help>
