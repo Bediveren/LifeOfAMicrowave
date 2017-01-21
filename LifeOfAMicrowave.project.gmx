@@ -11,6 +11,13 @@
     <sprite>sprites\spr_k_test</sprite>
     <sprite>sprites\spr_p_wall</sprite>
     <sprite>sprites\spr_p_wave</sprite>
+    <sprites name="player">
+      <sprite>sprites\spr_standing_still</sprite>
+      <sprite>sprites\spr_walking_left</sprite>
+      <sprite>sprites\spr_walking_right</sprite>
+      <sprite>sprites\spr_up_left</sprite>
+      <sprite>sprites\spr_up_right</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
