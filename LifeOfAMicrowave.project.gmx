@@ -6,18 +6,21 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
-    <sprite>sprites\spr_pPlayer</sprite>
+    <sprite>sprites\spr_p_player</sprite>
     <sprite>sprites\spr_i_testmicro</sprite>
     <sprite>sprites\spr_k_test</sprite>
+    <sprite>sprites\spr_p_wall</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
   <objects name="objects">
     <object>objects\obj_k_test</object>
+    <object>objects\obj_p_player</object>
+    <object>objects\obj_p_wall</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_p_test</room>
     <room>rooms\rm_k_test</room>
-    <room>rooms\rm_ptest</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
