@@ -70,6 +70,13 @@
       <sprite>sprites\spr_apple_right</sprite>
     </sprites>
     <sprite>sprites\spr_holeMarker</sprite>
+    <sprite>sprites\spr_window1</sprite>
+    <sprite>sprites\spr_window2</sprite>
+    <sprite>sprites\spr_window3</sprite>
+    <sprite>sprites\spr_fridge</sprite>
+    <sprite>sprites\spr_painting1</sprite>
+    <sprite>sprites\spr_painting2</sprite>
+    <sprite>sprites\spr_painting3</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -107,6 +114,7 @@
       <object>objects\obj_flyingCnt2</object>
       <object>objects\obj_flyingCnt3</object>
       <object>objects\obj_flyingCnt4</object>
+      <object>objects\obj_fridge</object>
     </objects>
     <objects name="traps">
       <object>objects\obj_t_ofire</object>
@@ -118,20 +126,18 @@
     </objects>
     <object>objects\obj_holeMarker</object>
     <object>objects\obj_lives</object>
-    <object>objects\obj_p_player</object>
+    <objects name="Windows">
+      <object>objects\obj_window1</object>
+      <object>objects\obj_window2</object>
+      <object>objects\obj_window3</object>
+    </objects>
+    <objects name="Paintings">
+      <object>objects\obj_painting1</object>
+      <object>objects\obj_painting2</object>
+      <object>objects\obj_painting3</object>
+    </objects>
   </objects>
-  <rooms name="rooms">
-    <room>rooms\rm_screenshot</room>
-    <room>rooms\rm_j_test</room>
-    <room>rooms\rm_i_testenemy</room>
-    <room>rooms\rm_k_mainmenu</room>
-    <room>rooms\rm_p_test</room>
-    <room>rooms\rm_testCounters</room>
-    <room>rooms\rm_k_credits</room>
-    <room>rooms\rm_trap_test</room>
-    <room>rooms\room2</room>
-    <room>rooms\room6</room>
-  </rooms>
+  <rooms name="rooms"/>
   <help>
     <rtf>help.rtf</rtf>
   </help>
