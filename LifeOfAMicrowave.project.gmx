@@ -8,6 +8,7 @@
   <sprites name="sprites">
     <sprite>sprites\spr_p_player</sprite>
     <sprite>sprites\spr_i_testmicro</sprite>
+    <sprite>sprites\spr_p_wall</sprite>
     <sprite>sprites\spr_k_test</sprite>
     <sprites name="mainmenu_ui">
       <sprite>sprites\spr_k_button1</sprite>
@@ -15,15 +16,45 @@
       <sprite>sprites\spr_k_button_hower</sprite>
       <sprite>sprites\spr_k_button_click</sprite>
     </sprites>
-    <sprite>sprites\spr_p_wall</sprite>
     <sprite>sprites\spr_p_wave</sprite>
     <sprite>sprites\spr_i_testmelee</sprite>
     <sprite>sprites\spr_apple</sprite>
+    <sprites name="player">
+      <sprite>sprites\spr_standing_still</sprite>
+      <sprite>sprites\spr_walking_left</sprite>
+      <sprite>sprites\spr_walking_right</sprite>
+      <sprite>sprites\spr_up_left</sprite>
+      <sprite>sprites\spr_up_right</sprite>
+      <sprite>sprites\spr_wave</sprite>
+    </sprites>
+    <sprites name="Counters">
+      <sprite>sprites\spr_counter1</sprite>
+      <sprite>sprites\spr_counter2</sprite>
+      <sprite>sprites\spr_counter3</sprite>
+      <sprite>sprites\spr_counter4</sprite>
+      <sprite>sprites\spr_counter5</sprite>
+    </sprites>
+    <sprites name="traps">
+      <sprite>sprites\spr_waterSolid</sprite>
+      <sprite>sprites\spr_t_oven</sprite>
+      <sprite>sprites\spr_waterNotSolid</sprite>
+    </sprites>
+    <sprite>sprites\spr_widerSink</sprite>
+    <sprite>sprites\spr_counter6High</sprite>
+    <sprite>sprites\spr_flying1</sprite>
+    <sprite>sprites\spr_flyingCnt2</sprite>
+    <sprite>sprites\spr_flying3</sprite>
+    <sprite>sprites\spr_flying4</sprite>
+    <sprite>sprites\spr_sinkNotSolid</sprite>
+    <sprite>sprites\sprite30</sprite>
   </sprites>
-  <backgrounds name="background"/>
+  <backgrounds name="background">
+    <background>background\bg_background</background>
+  </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
     <font>fonts\f_k_button</font>
+    <font>fonts\f_k_credits</font>
   </fonts>
   <objects name="objects">
     <object>objects\obj_k_test</object>
@@ -38,13 +69,37 @@
       <object>objects\obj_k_quit</object>
       <object>objects\obj_k_credits</object>
       <object>objects\obj_k_button_parent</object>
+      <object>objects\obj_k_credit_text</object>
+    </objects>
+    <objects name="counters">
+      <object>objects\obj_counter1</object>
+      <object>objects\obj_counter2</object>
+      <object>objects\obj_counter4</object>
+      <object>objects\obj_counter3</object>
+      <object>objects\obj_counter5</object>
+      <object>objects\obj_counter6High</object>
+      <object>objects\obj_flyingCnt1</object>
+      <object>objects\obj_flyingCnt2</object>
+      <object>objects\obj_flyingCnt3</object>
+      <object>objects\obj_flyingCnt4</object>
+    </objects>
+    <objects name="traps">
+      <object>objects\obj_t_ofire</object>
+      <object>objects\obj_t_swater</object>
+      <object>objects\obj_t_swaterSol</object>
+      <object>objects\obj_widerSinknotSol</object>
     </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_i_testenemy</room>
+    <room>rooms\rm_screenshot</room>
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_p_test</room>
+    <room>rooms\rm_testCounters</room>
+    <room>rooms\rm_k_credits</room>
+    <room>rooms\rm_trap_test</room>
     <room>rooms\room2</room>
+    <room>rooms\room6</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
