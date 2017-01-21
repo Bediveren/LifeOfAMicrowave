@@ -86,8 +86,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_screenshot</room>
     <room>rooms\rm_k_mainmenu</room>
+    <room>rooms\rm_screenshot</room>
     <room>rooms\rm_p_test</room>
     <room>rooms\rm_testCounters</room>
     <room>rooms\rm_k_credits</room>
