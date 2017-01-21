@@ -39,7 +39,9 @@ hitPoints = 150;
 
 //others
 spriteWidth = 75;
-bullet = false;
+
+//counter
+counter1 = 0;
 </string>
           </argument>
         </arguments>
@@ -69,6 +71,7 @@ if (hitPoints == 0)
     instance_destroy();
 }
 
+counter1++;
 
 horizontalSpeed = moveSpeed;
 
@@ -77,8 +80,10 @@ if(place_meeting(x, y, obj_p_wave))
     hitPoints -= 1;
 }
 
-if distance_to_object(obj_p_player) &gt; (spriteWidth)
+if distance_to_object(obj_p_player) &gt; (spriteWidth*2) //dar nepriartejo pakankamai prie player'io
 {
+sprite_index = spr_pie_left;
+
 if(verticalSpeed &lt; 10) verticalSpeed += grav;
 
 //Horizontal collision
@@ -117,22 +122,31 @@ if(place_meeting(x, y+verticalSpeed, obj_p_wall))
     verticalSpeed = 0;
 }
 y += verticalSpeed;
-if(instance_exists(obj_p_wave))
+
+}
+else //iki player'io liko nurodytas atstumas
 {
-    with(obj_p_wave)
+    sprite_index = spr_pieStill;
+    if(verticalSpeed &lt; 10) verticalSpeed += grav;
+    if(place_meeting(x, y+verticalSpeed, obj_p_wall))
     {
-        y=other.y;
-    }
-}
-}
-else
-{
-    if (!bullet)
+    while(!place_meeting(x,y + sign(verticalSpeed), obj_p_wall))
     {
-        instance_create(x, y, obj_j_cherryBullet);
+        y+=sign(verticalSpeed);
+    }   
+    verticalSpeed = 0;
     }
-    bullet = true;
+    y += verticalSpeed;
+
+    //instance_create(x, y, obj_j_cherryBullet);
+
 }
+
+    if (counter1 == 60)
+    {
+        instance_create(x, y-50, obj_j_cherryBullet);
+        counter1 = 0;
+    }
 </string>
           </argument>
         </arguments>

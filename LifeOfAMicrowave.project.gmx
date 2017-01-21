@@ -51,6 +51,8 @@
     <sprites name="pie">
       <sprite>sprites\spr_pie_left</sprite>
       <sprite>sprites\spr_pie_right</sprite>
+      <sprite>sprites\spr_cherry</sprite>
+      <sprite>sprites\spr_pieStill</sprite>
     </sprites>
     <sprite>sprites\sprite30</sprite>
     <sprite>sprites\sprite34</sprite>
@@ -106,9 +108,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_screenshot</room>
     <room>rooms\rm_j_test</room>
     <room>rooms\rm_i_testenemy</room>
-    <room>rooms\rm_screenshot</room>
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_p_test</room>
     <room>rooms\rm_testCounters</room>
