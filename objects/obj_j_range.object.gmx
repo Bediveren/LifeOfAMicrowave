@@ -135,7 +135,7 @@ else //iki player'io liko nurodytas atstumas
 
 }
 
-    if (counter1 == 60)
+        if (counter1 == 60)
     {
         instance_create(x, y-50, obj_j_cherryBullet);
         counter1 = 0;
