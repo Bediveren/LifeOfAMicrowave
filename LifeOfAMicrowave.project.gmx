@@ -32,6 +32,7 @@
       <sprite>sprites\spr_up_left</sprite>
       <sprite>sprites\spr_up_right</sprite>
       <sprite>sprites\spr_wave</sprite>
+      <sprite>sprites\spr_lives</sprite>
     </sprites>
     <sprites name="Counters">
       <sprite>sprites\spr_counter1</sprite>
@@ -65,7 +66,6 @@
   </fonts>
   <objects name="objects">
     <object>objects\obj_k_test</object>
-    <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
     <object>objects\obj_p_wave</object>
     <objects name="mainmenu_ui">
@@ -95,6 +95,8 @@
       <object>objects\obj_sinkBottomTransp</object>
       <object>objects\obj_sinkSides</object>
     </objects>
+    <object>objects\obj_lives</object>
+    <object>objects\obj_p_player</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_k_mainmenu</room>
