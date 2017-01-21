@@ -4,7 +4,15 @@
     <Config>Configs\Default</Config>
   </Configs>
   <NewExtensions/>
-  <sounds name="sound"/>
+  <sounds name="sound">
+    <sound>sound\s_play_smusic</sound>
+    <sound>sound\s_oven_fire</sound>
+    <sound>sound\s_microwave_doorslam</sound>
+    <sound>sound\s_microwave_cancerray_sound</sound>
+    <sound>sound\s_microwave_death_sound</sound>
+    <sound>sound\s_menu_music</sound>
+    <sound>sound\s_microwave_jump</sound>
+  </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_p_player</sprite>
     <sprite>sprites\spr_i_testmicro</sprite>
@@ -26,6 +34,7 @@
       <sprite>sprites\spr_up_left</sprite>
       <sprite>sprites\spr_up_right</sprite>
       <sprite>sprites\spr_wave</sprite>
+      <sprite>sprites\spr_lives</sprite>
     </sprites>
     <sprites name="Counters">
       <sprite>sprites\spr_counter1</sprite>
@@ -52,8 +61,10 @@
       <sprite>sprites\spr_pie_left</sprite>
       <sprite>sprites\spr_pie_right</sprite>
       <sprite>sprites\spr_cherry</sprite>
+      <sprite>sprites\spr_pieStill</sprite>
     </sprites>
     <sprite>sprites\sprite30</sprite>
+    <sprite>sprites\sprite34</sprite>
     <sprites name="apple">
       <sprite>sprites\spr_apple_left</sprite>
       <sprite>sprites\spr_apple_right</sprite>
@@ -73,8 +84,8 @@
     <objects name="Enemy">
       <object>objects\obj_j_range</object>
       <object>objects\obj_melee</object>
+      <object>objects\obj_j_cherryBullet</object>
     </objects>
-    <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
     <object>objects\obj_p_wave</object>
     <objects name="mainmenu_ui">
@@ -105,11 +116,13 @@
       <object>objects\obj_sinkSides</object>
     </objects>
     <object>objects\obj_holeMarker</object>
+    <object>objects\obj_lives</object>
+    <object>objects\obj_p_player</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_i_testenemy</room>
-    <room>rooms\rm_j_test</room>
     <room>rooms\rm_screenshot</room>
+    <room>rooms\rm_j_test</room>
+    <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_p_test</room>
     <room>rooms\rm_testCounters</room>
