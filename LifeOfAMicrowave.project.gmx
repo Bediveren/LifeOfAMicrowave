@@ -18,6 +18,19 @@
     <sprite>sprites\spr_p_wall</sprite>
     <sprite>sprites\spr_t_oven</sprite>
     <sprite>sprites\spr_p_wave</sprite>
+    <sprites name="player">
+      <sprite>sprites\spr_standing_still</sprite>
+      <sprite>sprites\spr_walking_left</sprite>
+      <sprite>sprites\spr_walking_right</sprite>
+      <sprite>sprites\spr_up_left</sprite>
+      <sprite>sprites\spr_up_right</sprite>
+    </sprites>
+    <sprite>sprites\spr_water</sprite>
+    <sprite>sprites\spr_counter1</sprite>
+    <sprite>sprites\spr_counter2</sprite>
+    <sprite>sprites\spr_counter3</sprite>
+    <sprite>sprites\spr_counter4</sprite>
+    <sprite>sprites\spr_counter5</sprite>
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
@@ -40,8 +53,14 @@
       <object>objects\obj_k_button_parent</object>
       <object>objects\obj_k_credit_text</object>
     </objects>
+    <object>objects\obj_counter1</object>
+    <object>objects\obj_counter2</object>
+    <object>objects\obj_counter3</object>
+    <object>objects\obj_counter4</object>
+    <object>objects\obj_counter5</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_testCounters</room>
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_k_credits</room>
     <room>rooms\rm_p_test</room>
