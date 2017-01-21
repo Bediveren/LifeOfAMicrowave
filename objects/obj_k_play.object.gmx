@@ -140,7 +140,7 @@ room_goto(rm_p_test)
           </argument>
           <argument>
             <kind>0</kind>
-            <string>y  - 16</string>
+            <string>y  - 36</string>
           </argument>
         </arguments>
       </action>
