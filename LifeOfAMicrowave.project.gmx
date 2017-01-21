@@ -24,6 +24,7 @@
       <sprite>sprites\spr_k_button_idle</sprite>
       <sprite>sprites\spr_k_button_hower</sprite>
       <sprite>sprites\spr_k_button_click</sprite>
+      <sprite>sprites\spr_k_menu_button2</sprite>
     </sprites>
     <sprite>sprites\spr_p_wave</sprite>
     <sprite>sprites\sprite10</sprite>
@@ -80,6 +81,7 @@
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
+    <background>background\bg_mainmenu</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
