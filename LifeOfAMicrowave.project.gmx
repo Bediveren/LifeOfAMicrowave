@@ -76,6 +76,8 @@
     <sprite>sprites\spr_painting1</sprite>
     <sprite>sprites\spr_painting2</sprite>
     <sprite>sprites\spr_painting3</sprite>
+    <sprite>sprites\spr_fire</sprite>
+    <sprite>sprites\spr_trashbin</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -121,6 +123,8 @@
       <object>objects\obj_widerSinknotSol</object>
       <object>objects\obj_sinkBottomTransp</object>
       <object>objects\obj_sinkSides</object>
+      <object>objects\obj_fireOnOven</object>
+      <object>objects\obj_trashbin</object>
     </objects>
     <object>objects\obj_lives</object>
     <object>objects\obj_p_player</object>
@@ -136,7 +140,8 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_screenshot</room>
+    <room>rooms\rm_map1</room>
+    <room>rooms\rm_map2</room>
     <room>rooms\rm_j_test</room>
     <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_k_mainmenu</room>
