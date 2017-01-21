@@ -67,9 +67,7 @@ halfSecond = 0;
             <string>//Get the player's input
 key_right = keyboard_check(vk_right);
 key_left = -keyboard_check(vk_left);
-key_jump = keyboard_check_pressed(vk_up);
-//jump sound
-if(key_jump) audio_play_sound(s_microwave_jump, 1, false);  
+key_jump = keyboard_check_pressed(vk_up);  
 //React to inputs;
 if(shooting == false)
 {
@@ -89,6 +87,7 @@ if(shooting == false)
     if(place_meeting(x,y + 1, obj_p_wall))
     {
         verticalSpeed = key_jump * -jumpSpeed;
+        if(key_jump) audio_play_sound(s_microwave_jump, 1, false);
     }
 //Horizontal collision
 if(place_meeting(x+horizontalSpeed, y, obj_p_wall))
