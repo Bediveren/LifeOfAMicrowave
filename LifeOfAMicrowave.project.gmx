@@ -24,7 +24,7 @@
       <sprite>sprites\spr_walking_right</sprite>
       <sprite>sprites\spr_up_left</sprite>
       <sprite>sprites\spr_up_right</sprite>
-      <sprite>sprites\spr_walking_left_2</sprite>
+      <sprite>sprites\spr_wave</sprite>
     </sprites>
     <sprite>sprites\spr_water</sprite>
     <sprite>sprites\spr_counter1</sprite>
