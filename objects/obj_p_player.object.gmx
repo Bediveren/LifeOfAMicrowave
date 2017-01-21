@@ -87,6 +87,13 @@ if(place_meeting(x+horizontalSpeed, y, obj_p_wall))
     horizontalSpeed = 0;
 }
 x += horizontalSpeed;
+if(instance_exists(obj_p_wave))
+{
+    with(obj_p_wave)
+    {
+        x=other.x;
+    }
+}
 //Vertical collision
 if(place_meeting(x, y+verticalSpeed, obj_p_wall))
 {
@@ -97,17 +104,17 @@ if(place_meeting(x, y+verticalSpeed, obj_p_wall))
     verticalSpeed = 0;
 }
 y += verticalSpeed;
+if(instance_exists(obj_p_wave))
+{
+    with(obj_p_wave)
+    {
+        y=other.y;
+    }
+}
 ///do wave
 if(key_shoot)
 {
-    if(!instance_exists(obj_p_wave))
-    {
-        wave = instance_create(x+sizeWidth, y , obj_p_wave);
-        with(wave)
-        {
-            direction = other.image_angle;
-        }
-    }
+    
 }
 
 </string>
@@ -115,7 +122,7 @@ if(key_shoot)
         </arguments>
       </action>
     </event>
-    <event eventtype="5" enumb="32">
+    <event eventtype="9" enumb="32">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -132,17 +139,43 @@ if(key_shoot)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>///do wave
-/*
-if(!instance_exists(obj_p_wave))
+            <string>if(!instance_exists(obj_p_wave))
 {
-    wave = instance_create(x+sizeWidth/2, y , obj_p_wave);
+    wave = instance_create(x+sizeWidth, y , obj_p_wave);
     with(wave)
     {
         direction = other.image_angle;
     }
 }
-*/
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="10" enumb="32">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>if(instance_exists(obj_p_wave))
+{
+    with(obj_p_wave)
+    {
+        instance_destroy();
+    }
+}
 </string>
           </argument>
         </arguments>
