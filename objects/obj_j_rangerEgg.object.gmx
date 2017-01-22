@@ -81,7 +81,7 @@ if(place_meeting(x, y, obj_p_wave))
     hitPoints -= 1;
 }
 
-if distance_to_object(obj_p_player) &gt; (spriteWidth*2) //dar nepriartejo pakankamai prie player'io
+if distance_to_object(obj_p_player) &gt; (spriteWidth*3) //dar nepriartejo pakankamai prie player'io
 {
 sprite_index = spriteIndexMove;
 
