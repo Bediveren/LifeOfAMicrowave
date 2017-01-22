@@ -93,6 +93,8 @@
     </sprites>
     <sprite>sprites\spr_fire</sprite>
     <sprite>sprites\spr_trashbin</sprite>
+    <sprite>sprites\spr_chocolate</sprite>
+    <sprite>sprites\spr_crossain</sprite>
     <sprites name="fish">
       <sprite>sprites\spr_fish</sprite>
     </sprites>
@@ -185,8 +187,9 @@
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_map1</room>
     <room>rooms\rm_j_test</room>
-    <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_k_mainmenu</room>
+    <room>rooms\rm_map1</room>
+    <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_p_test</room>
     <room>rooms\rm_testCounters</room>
     <room>rooms\rm_k_credits</room>
