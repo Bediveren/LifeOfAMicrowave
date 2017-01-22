@@ -184,6 +184,7 @@
   <rooms name="rooms">
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_map1</room>
+    <room>rooms\rm_map2</room>
     <room>rooms\rm_j_test</room>
     <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_k_mainmenu</room>

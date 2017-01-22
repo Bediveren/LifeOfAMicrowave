@@ -28,7 +28,7 @@
             <string>player = instance_find(obj_p_player,1);
 with(player)
 {
-    jumpSpeed = 23;
+    jumpSpeed = 26;
 }
 instance_destroy();
 </string>
