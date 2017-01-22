@@ -160,7 +160,6 @@
       <object>objects\obj_fireOnOven</object>
       <object>objects\obj_trashbin</object>
     </objects>
-    <object>objects\obj_p_player</object>
     <object>objects\obj_lives</object>
     <object>objects\obj_k_menu_controller</object>
     <objects name="Windows">
@@ -184,7 +183,7 @@
     <object>objects\obj_player_death</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_k_mainmenu</room>
+    <room>rooms\rm_map1</room>
     <room>rooms\rm_map1</room>
     <room>rooms\rm_j_test</room>
     <room>rooms\rm_k_mainmenu</room>
