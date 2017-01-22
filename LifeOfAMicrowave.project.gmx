@@ -13,6 +13,9 @@
     <sound>sound\s_menu_music</sound>
     <sound>sound\s_microwave_jump</sound>
     <sound>sound\s_button_click</sound>
+    <sound>sound\s_microwave_damaged</sound>
+    <sound>sound\s_game_over</sound>
+    <sound>sound\s_power_up</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_p_player</sprite>
@@ -142,7 +145,7 @@
       <object>objects\obj_fireOnOven</object>
       <object>objects\obj_trashbin</object>
     </objects>
-    <object>objects\obj_holeMarker</object>
+    <object>objects\obj_p_player</object>
     <object>objects\obj_lives</object>
     <object>objects\obj_k_menu_controller</object>
     <objects name="Windows">
@@ -172,8 +175,8 @@
     <room>rooms\rm_trap_test</room>
     <room>rooms\room2</room>
     <room>rooms\room6</room>
-    <room>rooms\rm_k_gameover</room>
     <room>rooms\room9</room>
+    <room>rooms\rm_k_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
