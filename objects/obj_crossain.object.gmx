@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>player = instance_find(obj_p_player,1);
+            <string>player = instance_find(obj_p_player, 1);
 with(player)
 {
     jumpSpeed = 26;
