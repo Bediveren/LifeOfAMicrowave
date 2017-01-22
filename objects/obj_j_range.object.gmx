@@ -35,7 +35,7 @@ jumpSpeed = 12;
 moveSpeed = 7;
 
 //combat
-hitPoints = 150;
+hitPoints = 90;
 
 //others
 spriteWidth = 75;
@@ -104,12 +104,11 @@ if(place_meeting(x-horizontalSpeed, y, obj_p_wall))
 }
 
 x -= horizontalSpeed;
-if(instance_exists(obj_p_wave))
+
+//jumping when is close to hole
+if(place_meeting(x-1, y+1, obj_holeMarker))
 {
-    with(obj_p_wave)
-    {
-        x=other.x;
-    }
+    verticalSpeed = -jumpSpeed;
 }
 
 //Vertical collision
@@ -142,7 +141,7 @@ else //iki player'io liko nurodytas atstumas
 
 }
 
-    if (counter1 == 60)
+        if (counter1 == 60)
     {
         instance_create(x, y-50, obj_j_cherryBullet);
         counter1 = 0;

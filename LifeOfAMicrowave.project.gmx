@@ -71,6 +71,7 @@
       <sprite>sprites\spr_apple_left</sprite>
       <sprite>sprites\spr_apple_right</sprite>
     </sprites>
+    <sprite>sprites\spr_holeMarker</sprite>
     <sprite>sprites\spr_window1</sprite>
     <sprite>sprites\spr_window2</sprite>
     <sprite>sprites\spr_window3</sprite>
@@ -78,6 +79,13 @@
     <sprite>sprites\spr_painting1</sprite>
     <sprite>sprites\spr_painting2</sprite>
     <sprite>sprites\spr_painting3</sprite>
+    <sprites name="Burger">
+      <sprite>sprites\spr_burger</sprite>
+    </sprites>
+    <sprites name="Egg">
+      <sprite>sprites\spr_egg</sprite>
+      <sprite>sprites\spr_eggBlast</sprite>
+    </sprites>
     <sprite>sprites\spr_fire</sprite>
     <sprite>sprites\spr_trashbin</sprite>
   </sprites>
@@ -97,6 +105,7 @@
       <object>objects\obj_melee</object>
       <object>objects\obj_j_cherryBullet</object>
     </objects>
+    <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
     <object>objects\obj_p_wave</object>
     <objects name="mainmenu_ui">
@@ -129,8 +138,8 @@
       <object>objects\obj_fireOnOven</object>
       <object>objects\obj_trashbin</object>
     </objects>
+    <object>objects\obj_holeMarker</object>
     <object>objects\obj_lives</object>
-    <object>objects\obj_p_player</object>
     <object>objects\obj_k_menu_controller</object>
     <objects name="Windows">
       <object>objects\obj_window1</object>
@@ -144,12 +153,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_map1</room>
-    <room>rooms\rm_map2</room>
-    <room>rooms\rm_k_mainmenu</room>
-    <room>rooms\rm_screenshot</room>
     <room>rooms\rm_j_test</room>
     <room>rooms\rm_i_testenemy</room>
+    <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_p_test</room>
     <room>rooms\rm_testCounters</room>
     <room>rooms\rm_k_credits</room>

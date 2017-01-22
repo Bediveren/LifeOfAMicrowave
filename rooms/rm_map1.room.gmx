@@ -64,12 +64,23 @@
     <instance objName="obj_sinkSides" x="328" y="1376" name="inst_D57466C9" locked="0" code="" scaleX="0.625" scaleY="0.875" colour="4294967295" rotation="0"/>
     <instance objName="obj_sinkSides" x="320" y="1376" name="inst_7DF419BC" locked="0" code="" scaleX="0.75" scaleY="0.875" colour="4294967295" rotation="0"/>
     <instance objName="obj_sinkSides" x="912" y="1376" name="inst_57B39AB4" locked="0" code="" scaleX="0.75" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD
+    <instance objName="obj_j_range" x="2144" y="984" name="inst_759295AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+=======
     <instance objName="obj_j_range" x="2104" y="1088" name="inst_7A635413" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fridge" x="2568" y="1104" name="inst_AAB90D4A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_window1" x="296" y="624" name="inst_6E83E45E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_counter2" x="1600" y="1376" name="inst_C7D2E966" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_painting1" x="2136" y="656" name="inst_69640663" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_painting2" x="40" y="712" name="inst_5BCD234E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+<<<<<<< HEAD:rooms/rm_screenshot.room.gmx
+    <instance objName="obj_counter1" x="2888" y="1368" name="inst_B1B6B722" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_counter2" x="3208" y="1368" name="inst_B98D3ABC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_t_ofire" x="3528" y="1351" name="inst_D9E62417" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flyingCnt1" x="3048" y="552" name="inst_BAD314DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_flyingCnt2" x="3368" y="552" name="inst_AB812911" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> a80c6c929bea7caa5b22bd2a37b181b637b114ed
+=======
     <instance objName="obj_counter2" x="2888" y="1368" name="inst_B98D3ABC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_t_ofire" x="3208" y="1351" name="inst_D9E62417" locked="0" code="" scaleX="1" scaleY="1.01999998092651" colour="4294967295" rotation="0"/>
     <instance objName="obj_flyingCnt1" x="3128" y="384" name="inst_BAD314DB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -79,6 +90,7 @@
     <instance objName="obj_trashbin" x="3496" y="1232" name="inst_B8B8ADAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fireOnOven" x="3256" y="1312" name="inst_2C7A86FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fireOnOven" x="3384" y="1312" name="inst_AB2D1A14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+>>>>>>> 24dc16b6d1a293be17aee40d227061e59a66f22b:rooms/rm_map1.room.gmx
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
