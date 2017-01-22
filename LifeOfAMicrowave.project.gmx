@@ -40,6 +40,7 @@
       <sprite>sprites\spr_up_right</sprite>
       <sprite>sprites\spr_wave</sprite>
       <sprite>sprites\spr_lives</sprite>
+      <sprite>sprites\spr_death</sprite>
     </sprites>
     <sprites name="Counters">
       <sprite>sprites\spr_counter1</sprite>
@@ -93,6 +94,7 @@
     <sprite>sprites\spr_trashbin</sprite>
     <sprite>sprites\spr_chocolate</sprite>
     <sprite>sprites\spr_crossain</sprite>
+    <sprite>sprites\sprite59</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -162,6 +164,7 @@
       <object>objects\obj_chocolate</object>
       <object>objects\obj_crossain</object>
     </objects>
+    <object>objects\obj_player_death</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_k_mainmenu</room>

@@ -42,7 +42,7 @@ sizeHeight = 205;
 sizeWidth = 128;
 shooting = false;
 halfSecond = 0;
-image_speed = 0.1
+image_speed = 0.1;
 </string>
           </argument>
         </arguments>
@@ -161,6 +161,11 @@ with(inst_lives)
     image_index = other.life;
     image_speed = 0;
 }
+if(hitpoints &lt;= 0)
+{
+    instance_create(x, y, obj_player_death);
+    instance_destroy();
+}
 </string>
           </argument>
         </arguments>
@@ -246,7 +251,7 @@ if(!instance_exists(obj_p_wave))
         wave = instance_create(x + sizeWidth * sign(direct), y, obj_p_wave);
         wave.image_xscale = sign(direct);
         shooting = true;
-        //audio_play_sound(2, 1, true);
+        audio_play_sound(s_microwave_cancerray_sound, 1, true);
     }
 }
 </string>
@@ -280,6 +285,7 @@ if(!instance_exists(obj_p_wave))
         
     }
     shooting = false;
+    audio_stop_sound(s_microwave_cancerray_sound);
 }
 </string>
           </argument>
