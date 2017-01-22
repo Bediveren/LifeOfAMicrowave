@@ -13,6 +13,9 @@
     <sound>sound\s_menu_music</sound>
     <sound>sound\s_microwave_jump</sound>
     <sound>sound\s_button_click</sound>
+    <sound>sound\s_microwave_damaged</sound>
+    <sound>sound\s_game_over</sound>
+    <sound>sound\s_power_up</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_p_player</sprite>
@@ -24,6 +27,7 @@
       <sprite>sprites\spr_k_button_idle</sprite>
       <sprite>sprites\spr_k_button_hower</sprite>
       <sprite>sprites\spr_k_button_click</sprite>
+      <sprite>sprites\spr_k_menu_button2</sprite>
     </sprites>
     <sprite>sprites\spr_p_wave</sprite>
     <sprite>sprites\sprite10</sprite>
@@ -36,6 +40,7 @@
       <sprite>sprites\spr_up_right</sprite>
       <sprite>sprites\spr_wave</sprite>
       <sprite>sprites\spr_lives</sprite>
+      <sprite>sprites\spr_death</sprite>
     </sprites>
     <sprites name="Counters">
       <sprite>sprites\spr_counter1</sprite>
@@ -91,9 +96,17 @@
     <sprites name="fish">
       <sprite>sprites\spr_fish</sprite>
     </sprites>
+    <sprite>sprites\spr_chocolate</sprite>
+    <sprite>sprites\spr_crossain</sprite>
+    <sprite>sprites\spr_shelf</sprite>
+    <sprite>sprites\spr_dec1</sprite>
+    <sprite>sprites\spr_dec2</sprite>
+    <sprite>sprites\sprite59</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
+    <background>background\bg_mainmenu</background>
+    <background>background\bg_game_over</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -119,6 +132,7 @@
       <object>objects\obj_k_credits</object>
       <object>objects\obj_k_button_parent</object>
       <object>objects\obj_k_credit_text</object>
+      <object>objects\obj_k_plaintext</object>
     </objects>
     <objects name="counters">
       <object>objects\obj_counter1</object>
@@ -132,6 +146,7 @@
       <object>objects\obj_flyingCnt3</object>
       <object>objects\obj_flyingCnt4</object>
       <object>objects\obj_fridge</object>
+      <object>objects\obj_shelf</object>
     </objects>
     <objects name="traps">
       <object>objects\obj_t_ofire</object>
@@ -143,7 +158,7 @@
       <object>objects\obj_fireOnOven</object>
       <object>objects\obj_trashbin</object>
     </objects>
-    <object>objects\obj_holeMarker</object>
+    <object>objects\obj_p_player</object>
     <object>objects\obj_lives</object>
     <object>objects\obj_k_menu_controller</object>
     <objects name="Windows">
@@ -156,8 +171,19 @@
       <object>objects\obj_painting2</object>
       <object>objects\obj_painting3</object>
     </objects>
+    <objects name="powerUps">
+      <object>objects\obj_chocolate</object>
+      <object>objects\obj_crossain</object>
+    </objects>
+    <objects name="decorations">
+      <object>objects\obj_dec1</object>
+      <object>objects\obj_dec2</object>
+    </objects>
+    <object>objects\obj_player_death</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_k_mainmenu</room>
+    <room>rooms\rm_map1</room>
     <room>rooms\rm_j_test</room>
     <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_k_mainmenu</room>
@@ -167,6 +193,8 @@
     <room>rooms\rm_trap_test</room>
     <room>rooms\room2</room>
     <room>rooms\room6</room>
+    <room>rooms\room9</room>
+    <room>rooms\rm_k_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
