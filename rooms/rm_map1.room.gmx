@@ -79,6 +79,7 @@
     <instance objName="obj_trashbin" x="3496" y="1232" name="inst_B8B8ADAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fireOnOven" x="3256" y="1312" name="inst_2C7A86FD" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_fireOnOven" x="3384" y="1312" name="inst_AB2D1A14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_lives" x="56" y="80" name="inst_852C0256" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
