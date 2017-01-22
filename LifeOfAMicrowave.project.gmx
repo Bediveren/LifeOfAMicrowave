@@ -84,6 +84,7 @@
   <backgrounds name="background">
     <background>background\bg_background</background>
     <background>background\bg_mainmenu</background>
+    <background>background\bg_game_over</background>
   </backgrounds>
   <paths name="paths"/>
   <fonts name="fonts">
@@ -144,10 +145,9 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_map1</room>
     <room>rooms\rm_map2</room>
-    <room>rooms\rm_k_mainmenu</room>
-    <room>rooms\rm_screenshot</room>
     <room>rooms\rm_j_test</room>
     <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_p_test</room>

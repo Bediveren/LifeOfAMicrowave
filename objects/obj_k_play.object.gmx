@@ -75,7 +75,7 @@ event_inherited()
             <kind>1</kind>
             <string>event_inherited()
 
-room_goto(rm_p_test)
+room_goto(rm_map1)
 </string>
           </argument>
         </arguments>
