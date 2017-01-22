@@ -93,6 +93,8 @@
     </sprites>
     <sprite>sprites\spr_fire</sprite>
     <sprite>sprites\spr_trashbin</sprite>
+    <sprite>sprites\spr_chocolate</sprite>
+    <sprite>sprites\spr_crossain</sprite>
     <sprites name="fish">
       <sprite>sprites\spr_fish</sprite>
     </sprites>
@@ -158,7 +160,6 @@
       <object>objects\obj_fireOnOven</object>
       <object>objects\obj_trashbin</object>
     </objects>
-    <object>objects\obj_p_player</object>
     <object>objects\obj_lives</object>
     <object>objects\obj_k_menu_controller</object>
     <objects name="Windows">
@@ -182,12 +183,13 @@
     <object>objects\obj_player_death</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_k_mainmenu</room>
+    <room>rooms\rm_map1</room>
     <room>rooms\rm_map1</room>
     <room>rooms\rm_map2</room>
     <room>rooms\rm_j_test</room>
-    <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_k_mainmenu</room>
+    <room>rooms\rm_map1</room>
+    <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_p_test</room>
     <room>rooms\rm_testCounters</room>
     <room>rooms\rm_k_credits</room>
