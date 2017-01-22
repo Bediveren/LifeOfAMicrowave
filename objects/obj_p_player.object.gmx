@@ -144,9 +144,13 @@ if(halfSecond == 30)
 {
     if(place_meeting(x,y+5,obj_sinkBottomTransp))
     {
-        hitpoints -= 2;
+        hitpoints -= 20;
     }
     halfSecond = 0;
+    if(place_meeting(x,y+5, obj_t_ofire))
+    {
+        hitpoints -=15;
+    }
 }
 //set lives
 if(hitpoints != 100) life = hitpoints/20 + 1;
