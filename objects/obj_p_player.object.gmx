@@ -195,11 +195,12 @@ if(x &gt;= 2888)
 if(!smth)
     if(x &lt;= 50)
     {
-        if(room != rm_map1)
+        if(room != rm_map3)
         {
-            room_goto(rm_map1);
+            room_goto(rm_map3);
             x = 2888;
             smth = false;
+            
         }
             
     }
