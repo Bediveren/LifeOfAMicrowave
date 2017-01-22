@@ -33,7 +33,7 @@ x -= 10;
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="obj_p_player">
+    <event eventtype="4" ename="obj_p_wall">
       <action>
         <libid>1</libid>
         <id>203</id>
@@ -49,6 +49,7 @@ x -= 10;
         <isnot>0</isnot>
       </action>
     </event>
+    <event eventtype="4" ename="obj_p_player">
     <event eventtype="7" enumb="0">
     <event eventtype="4" ename="obj_p_wall">
       <action>
