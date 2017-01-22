@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>-1</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -43,7 +43,6 @@ sizeWidth = 128;
 shooting = false;
 halfSecond = 0;
 image_speed = 0.1;
-depth = -1000;
 </string>
           </argument>
         </arguments>
@@ -204,6 +203,7 @@ if(!smth)
         }
             
     }
+
 </string>
           </argument>
         </arguments>
