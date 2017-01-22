@@ -85,11 +85,15 @@
     <sprites name="Egg">
       <sprite>sprites\spr_egg</sprite>
       <sprite>sprites\spr_eggBlast</sprite>
+      <sprite>sprites\spr_eggStill</sprite>
     </sprites>
     <sprite>sprites\spr_fire</sprite>
     <sprite>sprites\spr_trashbin</sprite>
     <sprite>sprites\spr_chocolate</sprite>
     <sprite>sprites\spr_crossain</sprite>
+    <sprites name="fish">
+      <sprite>sprites\spr_fish</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -107,6 +111,9 @@
       <object>objects\obj_j_range</object>
       <object>objects\obj_melee</object>
       <object>objects\obj_j_cherryBullet</object>
+      <object>objects\obj_rangerPie</object>
+      <object>objects\obj_j_rangerEgg</object>
+      <object>objects\obj_j_eggBullet</object>
     </objects>
     <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
@@ -161,11 +168,10 @@
     </objects>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_j_test</room>
     <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_map1</room>
-    <room>rooms\rm_j_test</room>
     <room>rooms\rm_i_testenemy</room>
-    <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_p_test</room>
     <room>rooms\rm_testCounters</room>
     <room>rooms\rm_k_credits</room>
