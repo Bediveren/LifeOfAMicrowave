@@ -13,6 +13,9 @@
     <sound>sound\s_menu_music</sound>
     <sound>sound\s_microwave_jump</sound>
     <sound>sound\s_button_click</sound>
+    <sound>sound\s_microwave_damaged</sound>
+    <sound>sound\s_game_over</sound>
+    <sound>sound\s_power_up</sound>
   </sounds>
   <sprites name="sprites">
     <sprite>sprites\spr_p_player</sprite>
@@ -37,6 +40,7 @@
       <sprite>sprites\spr_up_right</sprite>
       <sprite>sprites\spr_wave</sprite>
       <sprite>sprites\spr_lives</sprite>
+      <sprite>sprites\spr_death</sprite>
     </sprites>
     <sprites name="Counters">
       <sprite>sprites\spr_counter1</sprite>
@@ -93,6 +97,7 @@
     <sprite>sprites\spr_shelf</sprite>
     <sprite>sprites\spr_dec1</sprite>
     <sprite>sprites\spr_dec2</sprite>
+    <sprite>sprites\sprite59</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -146,7 +151,7 @@
       <object>objects\obj_fireOnOven</object>
       <object>objects\obj_trashbin</object>
     </objects>
-    <object>objects\obj_holeMarker</object>
+    <object>objects\obj_p_player</object>
     <object>objects\obj_lives</object>
     <object>objects\obj_k_menu_controller</object>
     <objects name="Windows">
@@ -167,6 +172,7 @@
       <object>objects\obj_dec1</object>
       <object>objects\obj_dec2</object>
     </objects>
+    <object>objects\obj_player_death</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_k_mainmenu</room>
@@ -180,8 +186,8 @@
     <room>rooms\rm_trap_test</room>
     <room>rooms\room2</room>
     <room>rooms\room6</room>
-    <room>rooms\rm_k_gameover</room>
     <room>rooms\room9</room>
+    <room>rooms\rm_k_gameover</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
