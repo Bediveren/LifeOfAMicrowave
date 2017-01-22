@@ -81,7 +81,7 @@
     <instance objName="obj_fireOnOven" x="3384" y="1312" name="inst_AB2D1A14" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_lives" x="56" y="80" name="inst_852C0256" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_chocolate" x="600" y="360" name="inst_9B33D7F7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_crossain" x="2136" y="192" name="inst_78CE50A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_crossain" x="2376" y="952" name="inst_78CE50A2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shelf" x="536" y="448" name="inst_9CF05F34" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_shelf" x="2064" y="280" name="inst_56E86CF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dec1" x="976" y="1248" name="inst_43AB1666" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>

@@ -28,7 +28,7 @@
             <string>player = instance_find(obj_p_player,1);
 with(player)
 {
-    moveSpeed = 30;
+    hitpoints += 40;
 }
 instance_destroy();
 </string>
