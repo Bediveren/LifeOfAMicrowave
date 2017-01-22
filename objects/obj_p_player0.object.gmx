@@ -142,7 +142,7 @@ else
 halfSecond++;
 if(halfSecond == 30)
 {
-    if(place_meeting(x,y+6,obj_sinkBottomTransp))
+    if(place_meeting(x,y+5,obj_sinkBottomTransp))
     {
         hitpoints -= 20;
         audio_play_sound(s_microwave_damaged, 0, false);
@@ -151,13 +151,8 @@ if(halfSecond == 30)
     if(place_meeting(x,y+5, obj_t_ofire))
     {
         hitpoints -=15;
-        audio_stop_sound(s_oven_fire);
         audio_play_sound(s_oven_fire, 0, false);
     }
-}
-if(!place_meeting(x, y+5, obj_t_ofire))
-{
-    audio_stop_sound(s_oven_fire); 
 }
 //set lives
 if(hitpoints != 100) life = hitpoints/20 + 1;
@@ -169,14 +164,7 @@ with(inst_lives)
     image_speed = 0;
 }
 if(hitpoints &lt;= 0)
-{   
-    inst_lives = instance_find(obj_lives,1);
-    with(inst_lives)
-    {
-        image_index = 0;
-        image_speed = 0;
-    }
-    audio_stop_sound(s_oven_fire);
+{
     instance_create(x, y, obj_player_death);
     instance_destroy();
 }
