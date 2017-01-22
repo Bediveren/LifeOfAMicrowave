@@ -60,7 +60,7 @@
     <instance objName="obj_p_wall" x="1088" y="448" name="inst_CBB3BF50" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_p_wall" x="1216" y="448" name="inst_F38F5F1D" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_p_wall" x="1344" y="448" name="inst_7B3E4715" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_holeMarker" x="784" y="400" name="inst_69E51ACE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_p_player" x="784" y="400" name="inst_69E51ACE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_melee" x="1264" y="240" name="inst_A79AF8D7" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
