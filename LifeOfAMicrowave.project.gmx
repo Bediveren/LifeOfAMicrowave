@@ -117,6 +117,7 @@
       <object>objects\obj_k_credits</object>
       <object>objects\obj_k_button_parent</object>
       <object>objects\obj_k_credit_text</object>
+      <object>objects\obj_k_plaintext</object>
     </objects>
     <objects name="counters">
       <object>objects\obj_counter1</object>
@@ -171,6 +172,7 @@
     <room>rooms\rm_trap_test</room>
     <room>rooms\room2</room>
     <room>rooms\room6</room>
+    <room>rooms\rm_k_gameover</room>
     <room>rooms\room9</room>
   </rooms>
   <help>
