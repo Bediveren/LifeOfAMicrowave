@@ -50,6 +50,7 @@ x -= 15;
       </action>
     </event>
     <event eventtype="7" enumb="0">
+    <event eventtype="4" ename="obj_p_wall">
       <action>
         <libid>1</libid>
         <id>203</id>
