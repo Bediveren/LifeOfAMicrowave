@@ -98,13 +98,6 @@
     <sprites name="fish">
       <sprite>sprites\spr_fish</sprite>
     </sprites>
-    <sprites name="deadFood">
-      <sprite>sprites\spr_deadApple</sprite>
-      <sprite>sprites\spr_deadBurger</sprite>
-      <sprite>sprites\spr_deadEgg</sprite>
-      <sprite>sprites\spr_deadFish</sprite>
-      <sprite>sprites\spr_deadPie</sprite>
-    </sprites>
     <sprite>sprites\spr_shelf</sprite>
     <sprite>sprites\spr_dec1</sprite>
     <sprite>sprites\spr_dec2</sprite>
@@ -129,10 +122,6 @@
       <object>objects\obj_rangerPie</object>
       <object>objects\obj_j_rangerEgg</object>
       <object>objects\obj_j_eggBullet</object>
-      <object>objects\obj_i_burger</object>
-      <object>objects\obj_apple</object>
-      <object>objects\obj_fish</object>
-      <object>objects\obj_bullet</object>
     </objects>
     <object>objects\obj_p_player</object>
     <object>objects\obj_p_wall</object>
@@ -184,13 +173,6 @@
     <objects name="powerUps">
       <object>objects\obj_chocolate</object>
       <object>objects\obj_crossain</object>
-    </objects>
-    <objects name="deadFood">
-      <object>objects\obj_deadPie</object>
-      <object>objects\obj_deadApple</object>
-      <object>objects\obj_deadEgg</object>
-      <object>objects\obj_deadBurger</object>
-      <object>objects\obj_deadFish</object>
     </objects>
     <objects name="decorations">
       <object>objects\obj_dec1</object>

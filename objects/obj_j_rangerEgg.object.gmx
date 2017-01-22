@@ -5,7 +5,7 @@
   <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
-  <parentName>obj_j_range</parentName>
+  <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
@@ -69,9 +69,8 @@ counter1 = 0;
             <kind>1</kind>
             <string>///movement
 
-if (hitPoints &lt;= 0)
+if (hitPoints == 0)
 {
-    instance_create(x,y, obj_deadEgg);
     instance_destroy();
 }
 
@@ -80,7 +79,6 @@ horizontalSpeed = moveSpeed;
 if(place_meeting(x, y, obj_p_wave))
 {
     hitPoints -= 1;
-
 }
 
 if distance_to_object(obj_p_player) &gt; (spriteWidth*3) //dar nepriartejo pakankamai prie player'io
@@ -184,22 +182,6 @@ else //iki player'io liko nurodytas atstumas
 </string>
           </argument>
         </arguments>
-      </action>
-    </event>
-    <event eventtype="7" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>203</id>
-        <kind>0</kind>
-        <userelative>0</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_kill_object</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
       </action>
     </event>
   </events>
