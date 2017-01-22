@@ -30,6 +30,7 @@ with(player)
 {
     jumpSpeed = 26;
 }
+audio_play_sound(s_power_up,0, false);
 instance_destroy();
 </string>
           </argument>

@@ -26,6 +26,16 @@
           <argument>
             <kind>1</kind>
             <string>depth = -1000;
+audio_stop_sound(s_oven_fire);
+audio_stop_sound(s_microwave_cancerray_sound);
+audio_stop_sound(s_microwave_damaged);
+if(instance_exists(obj_p_wave))
+{
+    with(obj_p_wave)
+    {
+        instance_destroy();
+    }
+}
 </string>
           </argument>
         </arguments>
@@ -49,6 +59,7 @@
           <argument>
             <kind>1</kind>
             <string>y +=10;
+x +=2;
 </string>
           </argument>
         </arguments>
