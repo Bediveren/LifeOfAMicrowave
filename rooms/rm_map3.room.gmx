@@ -84,6 +84,7 @@
     <instance objName="obj_dec1" x="976" y="1248" name="inst_43AB1666" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_dec2" x="2984" y="1240" name="inst_BDC7CA89" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ceilings" x="0" y="-24" name="inst_E73FCF7A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisibl1" x="32" y="32" name="inst_7828AFAC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

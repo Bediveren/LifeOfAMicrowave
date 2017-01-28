@@ -75,7 +75,7 @@ event_inherited()
             <kind>1</kind>
             <string>event_inherited()
 
-room_goto(rm_map1)
+room_goto(rm_map10)
 </string>
           </argument>
         </arguments>
@@ -96,7 +96,7 @@ room_goto(rm_map1)
         <arguments>
           <argument>
             <kind>6</kind>
-            <sound>s_menu_music</sound>
+            <sound>-100</sound>
           </argument>
         </arguments>
       </action>
