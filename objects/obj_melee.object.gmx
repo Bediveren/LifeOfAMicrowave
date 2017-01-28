@@ -52,9 +52,10 @@ hitPoints = 90;
 grav = 0.5;
 horizontalSpeed = 0;
 verticalSpeed = 0;
-jumpSpeed = 10;
+jumpSpeed = 25;
 moveSpeed = 7;
 jumpCount = 0;
+depth = -1000;
 </string>
           </argument>
         </arguments>

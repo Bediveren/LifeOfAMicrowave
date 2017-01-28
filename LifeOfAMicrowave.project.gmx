@@ -103,6 +103,7 @@
     <sprite>sprites\spr_dec2</sprite>
     <sprite>sprites\sprite59</sprite>
     <sprite>sprites\spr_ceilings</sprite>
+    <sprite>sprites\spr_sides</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bg_background</background>
@@ -181,14 +182,18 @@
     </objects>
     <object>objects\obj_player_death</object>
     <object>objects\obj_ceilings</object>
+    <object>objects\obj_invisibl1</object>
+    <object>objects\obj_invisibl2</object>
+    <object>objects\obj_holeMarker</object>
+    <object>objects\obj_sides</object>
   </objects>
   <rooms name="rooms">
-    <room>rooms\rm_map1</room>
+    <room>rooms\rm_k_mainmenu</room>
+    <room>rooms\rm_map10</room>
     <room>rooms\rm_map1</room>
     <room>rooms\rm_map3</room>
     <room>rooms\rm_map2</room>
     <room>rooms\rm_j_test</room>
-    <room>rooms\rm_k_mainmenu</room>
     <room>rooms\rm_map1</room>
     <room>rooms\rm_i_testenemy</room>
     <room>rooms\rm_p_test</room>

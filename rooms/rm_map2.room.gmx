@@ -80,6 +80,12 @@
     <instance objName="obj_sinkSides" x="1564" y="1358" name="inst_B54FA758" locked="0" code="" scaleX="0.939999997615814" scaleY="0.910000026226044" colour="4294967295" rotation="0"/>
     <instance objName="obj_sinkBottomTransp" x="976" y="1440" name="inst_8479E7A3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_ceilings" x="-16" y="-24" name="inst_C1D15CEB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_invisibl2" x="32" y="48" name="inst_8BD783B4" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_holeMarker" x="992" y="1376" name="inst_57E887D3" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_holeMarker" x="1296" y="1456" name="inst_197CB071" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_holeMarker" x="2600" y="784" name="inst_E8FFB2D1" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sides" x="3832" y="560" name="inst_8CAC99AE" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_sides" x="3832" y="0" name="inst_456FFAB2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>
