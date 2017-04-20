@@ -14,3 +14,6 @@ Irena Černiavskytė
 Karolis Abrutis  
 Pijus Tumėnas  
 
+- Main Screen  
+
+![alt tag](https://cloud.githubusercontent.com/assets/24376768/25252141/8ae2e9de-2624-11e7-92e4-7447f1dd0205.PNG)
